@@ -1,3 +1,8 @@
+![CI](https://github.com/GitDario79/pancan-multiomic-classifier/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.11+-blue)
+
+
 # Multi‑Omic Cancer Type Classification (TCGA PanCancer)
 
 A reproducible pipeline and notebook for classifying tumour types from **multi‑omics** data (RNA‑seq, DNA methylation, miRNA‑seq) using the TCGA Pan‑Cancer Atlas dataset.
