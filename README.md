@@ -72,8 +72,6 @@ Place modality files under `data/raw/` and ensure sample IDs align across modali
 python src/train.py   --rna data/raw/rna.csv   --meth data/raw/methylation.csv   --mirna data/raw/mirna.csv   --label_column CANCER_TYPE   --output_dir models   --n_components 300
 ```
 
-![Confusion Matrix](figures/confusion_matrix.png)
-
 
 This will:
 - scale → PCA (n=300)
