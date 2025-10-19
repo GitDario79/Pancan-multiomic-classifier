@@ -78,6 +78,8 @@ This will:
 - print accuracy/F1, save `model.joblib`, `label_encoder.joblib`, and `metrics.json`
 - write a confusion matrix to `figures/confusion_matrix.png`
 
+![Confusion Matrix](figures/confusion_matrix.png)
+
 ### 4) Evaluate on your split
 If you provide a `--test_size` (default 0.2) and `--random_state`, the script will generate a stratified split and report **accuracy** and **weighted F1**.
 
