@@ -1,4 +1,4 @@
-![CI](https://github.com/GitDario79/pancan-multiomic-classifier/actions/workflows/ci.yml/badge.svg)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 
@@ -77,8 +77,6 @@ This will:
 - fit **LogisticRegression** (`saga`, `penalty='l1'`)
 - print accuracy/F1, save `model.joblib`, `label_encoder.joblib`, and `metrics.json`
 - write a confusion matrix to `figures/confusion_matrix.png`
-
-![Confusion Matrix](figures/confusion_matrix.png)
 
 ### 4) Evaluate on your split
 If you provide a `--test_size` (default 0.2) and `--random_state`, the script will generate a stratified split and report **accuracy** and **weighted F1**.
