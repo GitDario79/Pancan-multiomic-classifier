@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Multi‑Omic Cancer Type Classification (TCGA PanCancer)"
+authors:
+  - family-names: "Meacci"
+    given-names: "Dario"
+date-released: "2025-10-19"
+version: "1.0.0"
+license: "MIT"
+repository-code: "https://github.com/USERNAME/pancan-multiomic-classifier"

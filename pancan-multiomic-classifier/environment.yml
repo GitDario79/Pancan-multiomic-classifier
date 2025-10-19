@@ -1,0 +1,13 @@
+name: pancan-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - scikit-learn>=1.3
+  - xgboost>=2.0
+  - imbalanced-learn>=0.12
+  - matplotlib>=3.7
+  - joblib>=1.3
+  - jupyter>=1.0
