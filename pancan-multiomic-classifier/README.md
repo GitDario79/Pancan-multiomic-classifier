@@ -1,4 +1,4 @@
-
+![CI](https://github.com/GitDario79/pancan-multiomic-classifier/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 
@@ -71,7 +71,7 @@ Place modality files under `data/raw/` and ensure sample IDs align across modali
 ```
 python src/train.py   --rna data/raw/rna.csv   --meth data/raw/methylation.csv   --mirna data/raw/mirna.csv   --label_column CANCER_TYPE   --output_dir models   --n_components 300
 ```
-
+![Confusion Matrix](figures/confusion_matrix.png)
 This will:
 - scale → PCA (n=300)
 - fit **LogisticRegression** (`saga`, `penalty='l1'`)
