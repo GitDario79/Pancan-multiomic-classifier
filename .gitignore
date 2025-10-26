@@ -23,3 +23,9 @@ Thumbs.db
 # Figures/outputs
 figures/*
 !figures/.gitkeep
+# Allow published outputs in figures/
+!figures/*.png
+!figures/*.svg
+!figures/*.jpg
+!figures/*.jpeg
+!figures/*.txt
