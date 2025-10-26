@@ -29,3 +29,7 @@ figures/*
 !figures/*.jpg
 !figures/*.jpeg
 !figures/*.txt
+# Generated artifacts & toy data
+artifacts/
+data/synthetic/*
+!data/synthetic/.gitkeep
